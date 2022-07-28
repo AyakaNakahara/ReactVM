@@ -1,0 +1,35 @@
+.pagination {
+    display:flex;
+    list-style: none;
+    padding: 0px;
+
+    li {
+        padding: 5px;
+        border-left: 1px solid #dddddd;
+        border-top: 1px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+        a {
+            padding: 5px;
+            color:#2A7FFC;
+            text-decoration: none;
+        }
+    }
+    li:hover {
+        background-color: #2A7FFC;
+        a {
+            color: white;
+        }
+    }
+    .pre-arrow {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        margin-left: auto;
+    }
+    .next-arrow {
+        border-right: 1px solid #dddddd;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        margin-right: 2.5%;
+    }
+
+}
